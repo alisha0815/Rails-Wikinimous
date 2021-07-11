@@ -5,4 +5,6 @@
   <%= link_to article.title, article_path(article) %>
   <%= link_to 'delete', article_path(article), method: :delete, data: { confirm: 'Are you sure?'} %>
   </h5>
+  <i class="fas fa-trash"></i>
+
 <% end %>
